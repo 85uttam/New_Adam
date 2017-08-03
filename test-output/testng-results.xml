@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82" started-at="2017-07-17T07:20:27Z" finished-at="2017-07-17T07:20:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82" started-at="2017-07-17T07:20:27Z" finished-at="2017-07-17T07:20:27Z">
+      <class name="base.Base">
+        <test-method status="FAIL" signature="getBrowser(java.lang.String)[pri:0, instance:base.Base@864e92]" name="getBrowser" is-config="true" duration-ms="0" started-at="2017-07-17T12:50:27Z" finished-at="2017-07-17T12:50:27Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method getBrowser requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method getBrowser requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="SKIP" signature="findAllLinks()[pri:0, instance:base.Base@864e92]" name="findAllLinks" duration-ms="7" started-at="2017-07-17T12:50:27Z" finished-at="2017-07-17T12:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllLinks -->
+        <test-method status="SKIP" signature="readFontProperty()[pri:0, instance:base.Base@864e92]" name="readFontProperty" duration-ms="2" started-at="2017-07-17T12:50:27Z" finished-at="2017-07-17T12:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFontProperty -->
+        <test-method status="SKIP" signature="searchBox()[pri:0, instance:base.Base@864e92]" name="searchBox" duration-ms="0" started-at="2017-07-17T12:50:27Z" finished-at="2017-07-17T12:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBox -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:base.Base@864e92]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-07-17T12:50:27Z" finished-at="2017-07-17T12:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- base.Base -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
